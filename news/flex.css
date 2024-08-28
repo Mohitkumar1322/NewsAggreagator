@@ -1,0 +1,85 @@
+.page{
+    display :flex;
+    justify-content: space-between;
+    padding: 0 3px;
+    align-items: center;
+    box-shadow: 0 16px 8px 0;
+    background-color : bisque;
+}
+.page ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    width :600px;
+    height: 50px;
+    display: flex;
+
+    justify-content: space-between;
+    
+
+}
+.page ul li a{
+
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+    
+}
+.page ul li a:hover{
+    color: #f00;
+    border-radius: 10em;
+}
+.a{
+    border-radius: 20px;
+    background-color: rgb(233, 228, 228);
+    
+}
+.parent {
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between containers */
+    align-items: flex-start; /* Aligns containers at the top */
+}
+
+.container1, .container2, .container3 {
+    background-color: aqua;
+    height: 650px;
+    width: 490px;
+    margin: 20px; /* Adds space around each container */
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+.container2 {
+    background-color: rgb(255, 0, 251); /* Different color for visibility */
+}
+.footr{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+.news-container {
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.article-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.article-description {
+    font-size: 14px;
+    color: #555;
+}
